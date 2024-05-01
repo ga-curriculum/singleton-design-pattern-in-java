@@ -1,4 +1,4 @@
-# ![[tktk Module Name]](./assets/tktk-hero.png)
+# ![[tktk Module Name]](./assets/singleton-design-pattern-header.png)
 
 ## About
 
@@ -6,9 +6,7 @@ Explore key design patterns with a focus on the Singleton pattern. Gain insights
 
 ## Prerequisites
 
-- tktk
-- tktk
-- tktk
+- None.
 
 ## Content
 

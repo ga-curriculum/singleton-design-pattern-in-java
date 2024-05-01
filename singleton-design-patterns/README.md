@@ -1,4 +1,4 @@
-# ![[tktk Module Name] - tktk Microlesson Name](./assets/hero.png)
+# ![[tktk Module Name] - tktk Microlesson Name](./assets/singleton-design-pattern-mod.png)
 
 **Learning objective:** By the end of this lesson, students will be able to examine the advantages and limitations of Singleton design patterns. 
 

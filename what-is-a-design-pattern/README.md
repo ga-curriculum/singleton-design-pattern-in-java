@@ -1,4 +1,4 @@
-# ![[tktk Module Name] - tktk Microlesson Name](./assets/hero.png)
+# ![[tktk Module Name] - tktk Microlesson Name](./assets/what-is-a-design-pattern.png)
 
 **Learning objective:** By the end of this lesson, students will be able to recognize design patterns and their classification into creational, structural, andn behavioral catagories. 
 

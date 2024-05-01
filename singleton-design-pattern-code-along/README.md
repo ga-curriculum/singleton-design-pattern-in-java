@@ -1,4 +1,4 @@
-# ![[tktk Module Name] - tktk Microlesson Name](./assets/hero.png)
+# ![[tktk Module Name] - tktk Microlesson Name](./assets/singleton-code-along.png)
 
 **Learning objective:** By the end of this lesson, students will be able to practice applying the Singleton design pattern to create a robust database connection manager, ensuring a single instance manages a database connection. 
 
