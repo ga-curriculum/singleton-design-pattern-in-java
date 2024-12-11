@@ -1,4 +1,7 @@
-# ![[tktk Module Name]](../assets/singleton-design-pattern-header.png)
+<h1>
+  <span class="prefix"></span>
+  <span class="headline">Singleton Design Pattern in Java</span>
+</h1>
 
 ## About
 

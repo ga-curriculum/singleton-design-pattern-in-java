@@ -1,18 +1,21 @@
-# ![[tktk Module Name] - tktk Microlesson Name](./assets/singleton-code-along.png)
+<h1>
+  <span class="headline">Singleton Design Pattern in Java</span>
+  <span class="subhead">Singleton Pattern in Action</span>
+</h1>
 
-**Learning objective:** By the end of this lesson, students will be able to practice applying the Singleton design pattern to create a robust database connection manager and ensure that a single instance manages a database connection. 
+**Learning objective:** By the end of this lesson, students will be able to apply the Singleton design pattern to add functionality to an application.
 
-### Code along : Singleton design pattern in action (20 minutes)
+### Build a logger in an application
 
-To illustrate the Singleton pattern in action, let's consider a classic example: a logger class. A Logger class typically needs to be a singleton because it often accesses a shared resource, such as a file or a network connection. Steps to implement the Singleton pattern in the Logger class:
+To illustrate the Singleton pattern in action, let's consider a classic example: a logger to print events throughout an application to the console. A logger typically needs to be a singleton because it often accesses a shared resource, such as a file or a network connection.
+
+We'll implement the Singleton pattern in the `Logger` class that includes these items:
 
 - A private constructor is used to prevent instantiation from outside the class.
-- Private static member to hold a single instance of the class.
+- A private static member to hold a single instance of the class.
 - A public static method provides global access to the instance.
 
 ```java
-package org.example.codealong.singleton;
-
 public class Logger {
     // Static member to hold a single instance
     private static Logger instance;
@@ -36,12 +39,10 @@ public class Logger {
 }
 ```
 
-Once the Logger class is implemented as a Singleton, we can use it to log messages. 
+Once the `Logger` class is implemented as a Singleton, we can use it to log messages in our `Main` class.
 
 ```java
-package org.example.codealong.singleton;
-
-public class Application {
+public class Main {
     public static void main(String[] args) {
         Logger logger = Logger.getInstance();
         logger.log("Application has started.");
