@@ -4,20 +4,20 @@
   <span class="headline">Singleton Design Pattern in Java</span>
 </h1>
 
-tktk add some default course navigation content here.
+## About
 
-tktk This landing page will be used when a student's course cannot be determined, so don't include any course-specific details.
+tktk Write a short but descriptive summary of the content in this module.
 
 ## Content
 
-| Lesson | Skills |
-| ------ | ------ |
-| [Setup](./setup/README.md)                               | Setting up the development environment. |
-| [Concepts](./concepts/README.md)                         | tktk skills covered                     |
-| [tktk Microlesson Name](./tktk-microlesson-01/README.md) | tktk skills covered                     |
+| Lesson | Est. Delivery Time | Skills |
+| ------ |:------------------:| ------ |
+| [Setup](../setup/README.md)                                             |  5 min | Set up the development environment.                                                                         |
+| [What is a Design Pattern?](../what-is-a-design-pattern/README.md)      | 10 min | Recognize design patterns and their classification into creational, structural, and behavioral categories.  |
+| [Singleton Design Patterns](../singleton-design-patterns/README.md)     | 25 min | Examine the advantages and limitations of Singleton design patterns.                                        |
+| [Singleton Pattern in Action](../singleton-pattern-in-action/README.md) | 25 min | Practice applying the Singleton design pattern to create a logging functionality in an application.         |
+| **Total content**                                                       |   1 hr |                                                                                                             |
 
-## Level Up content
+## References
 
-| Lesson | Skills |
-| ------ | ------ |
-| [tktk Microlesson Name](./tktk-microlesson-02/README.md) | tktk skills covered |
+📖 [Reference Materials](../references/README.md)
