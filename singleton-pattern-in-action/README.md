@@ -15,6 +15,8 @@ We'll implement the Singleton pattern in the `Logger` class that includes these 
 - A private static member to hold a single instance of the class.
 - A public static method provides global access to the instance.
 
+`src/main/java/org/example/Logger.java`
+
 ```java
 public class Logger {
     // Static member to hold a single instance
@@ -40,6 +42,8 @@ public class Logger {
 ```
 
 Once the `Logger` class is implemented as a Singleton, we can use it to log messages in our `Main` class.
+
+`src/main/java/org/example/Main.java`
 
 ```java
 public class Main {
