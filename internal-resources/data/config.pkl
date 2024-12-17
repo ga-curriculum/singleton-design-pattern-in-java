@@ -22,7 +22,7 @@ courses {
     microlessons {
       mls.setup
       mls.whatIsADesignPattern
-      mls.singletonDesignPatterns
+      mls.singletonDesignPattern
       mls.singletonPatternInAction
     }
   }
@@ -31,7 +31,7 @@ courses {
     microlessons {
       mls.setup
       mls.whatIsADesignPattern
-      mls.singletonDesignPatterns
+      mls.singletonDesignPattern
       mls.singletonPatternInAction
     }
   }
@@ -41,7 +41,7 @@ courses {
       // add microlessons here, in the order they should be delivered
       mls.setup
       mls.whatIsADesignPattern
-      mls.singletonDesignPatterns
+      mls.singletonDesignPattern
       mls.singletonPatternInAction
     }
   }

@@ -16,9 +16,9 @@ whatIsADesignPattern = new Template.Microlesson {
   videoUrl = ""
 }
 
-singletonDesignPatterns = new Template.Microlesson {
-  friendlyName = "Singleton Design Patterns"
-  dirName = "singleton-design-patterns"
+singletonDesignPattern = new Template.Microlesson {
+  friendlyName = "Singleton Design Pattern"
+  dirName = "singleton-design-pattern"
   type = "Content"
   videoUrl = ""
 }

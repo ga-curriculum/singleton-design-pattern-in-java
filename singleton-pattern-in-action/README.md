@@ -3,19 +3,12 @@
   <span class="subhead">Singleton Pattern in Action</span>
 </h1>
 
-**Learning objective:** By the end of this lesson, students will be able to apply the Singleton design pattern to add functionality to an application.
+**Learning objective:** By the end of this lesson, you'll be able to identify the problem contexts, during your programming tasks, in which the Singleton design pattern is the best solution.
 
-### Build a logger in an application
+## Application logger Implementation
 
-To illustrate the Singleton pattern in action, let's consider a classic example: a logger to print events throughout an application to the console. A logger typically needs to be a singleton because it often accesses a shared resource, such as a file or a network connection.
 
-We'll implement the Singleton pattern in the `Logger` class that includes these items:
-
-- A private constructor is used to prevent instantiation from outside the class.
-- A private static member to hold a single instance of the class.
-- A public static method provides global access to the instance.
-
-`src/main/java/org/example/Logger.java`
+### `logger` class definition:
 
 ```java
 public class Logger {
@@ -28,6 +21,7 @@ public class Logger {
 
     // Public method to provide global access to the instance
     public static Logger getInstance() {
+        //A check for existence of a logger object before instantiating to ensure no new instances are created
         if (instance == null) {
             instance = new Logger();
         }
@@ -43,7 +37,7 @@ public class Logger {
 
 Once the `Logger` class is implemented as a Singleton, we can use it to log messages in our `Main` class.
 
-`src/main/java/org/example/Main.java`
+### `logger` object usage in a `Main` class:
 
 ```java
 public class Main {
