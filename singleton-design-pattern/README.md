@@ -3,13 +3,13 @@
   <span class="subhead">Singleton Design Pattern</span>
 </h1>
 
-**Learning objective:** By the end of this lesson, you'll be able to identify the problem contexts, during your programming tasks, in which the Singleton design pattern is the best solution.
+**Learning objective:** By the end of this lesson, you'll be able to identify the problem contexts, during your programming tasks, in which the singleton design pattern is the best solution.
 
 ## Problem: An application logger
 
-To illustrate the Singleton pattern in action, let's consider the classic example: a logger to print events throughout an application to the console. A logger typically needs to be a singleton because it often accesses a shared resource, such as a file or a network connection.
+To illustrate the singleton pattern in action, let's consider the classic example: a logger to print events throughout an application to the console. A logger typically needs to be a singleton because it often accesses a shared resource, such as a console, file or a network connection.
 
-## The Singleton design pattern
+## The singleton design pattern
 
 ### Singleton design pattern components
 
@@ -17,7 +17,7 @@ To illustrate the Singleton pattern in action, let's consider the classic exampl
 - **One private constructor** that restricts instantiation from outside the class.
 - **One public static method** that provides global access to the single instance 
 
-### Most suitable problem contexts to use Singleton pattern
+### Most suitable problem contexts to use singleton design pattern
 In some applications, there might be scenarios where we need:
 - **Shared resources**: To manage global application states such as configuration, database connections, or logging.
 - **Single-point access to objects**: To control resources such as printer queue.
@@ -30,7 +30,7 @@ The Singleton design pattern guarantees that there's only one instance with a un
 
 This is the best design pattern for our application logger problem.
 
-### When NOT to Use Singleton pattern
+### When NOT to use singleton design pattern
 - **When Single Responsibility Principle (SRP) can't be violated**: Singleton combines object creation logic with its functional behavior, potentially breaking SRP.
 - **When the class needs to be thoroughly unit tested**: Singletons make unit testing difficult since they introduce global state (which is generally discouraged in software design principles).
 - **When a class needs to allow inheritance in order to evolve a lot in the future**: Singleton tightly couples the code, which makes it harder to refactor or replace with another implementation.

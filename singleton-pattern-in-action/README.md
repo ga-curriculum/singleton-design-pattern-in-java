@@ -3,7 +3,7 @@
   <span class="subhead">Singleton Pattern in Action</span>
 </h1>
 
-**Learning objective:** By the end of this lesson, you'll be able to identify the problem contexts, during your programming tasks, in which the Singleton design pattern is the best solution.
+**Learning objective:** By the end of this lesson, you'll be able to apply singleton design pattern to restrict a class from being instantiated more than once.
 
 ## Application logger Implementation
 

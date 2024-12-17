@@ -15,11 +15,11 @@ This means that someone has already faced the design problem we’re facing and 
 
 | Lesson | Est. Delivery Time | Skills |
 | ------ |:------------------:| ------ |
-| [Setup](../setup/README.md)                                             |  5 min | Set up the development environment.                                                                         |
+| [Setup](../setup/README.md)                                             |  10 min | Set up the development environment.                                                                         |
 | [What is a Design Pattern?](../what-is-a-design-pattern/README.md)      | 10 min | Recognize design patterns and their classification into creational, structural, and behavioral categories.  |
-| [Singleton Design Pattern](../singleton-design-pattern/README.md)     | 25 min | Examine the advantages and limitations of Singleton design patterns.                                        |
-| [Singleton Pattern in Action](../singleton-pattern-in-action/README.md) | 25 min | Practice applying the Singleton design pattern to create a logging functionality in an application.         |
-| **Total content**                                                       |   1 hr |                                                                                                             |
+| [Singleton Design Pattern](../singleton-design-pattern/README.md)     | 25 min | Describe a singleton design pattern and identify appropriate scenarios where it can be applied                                        |
+| [Singleton Pattern in Action](../singleton-pattern-in-action/README.md) | 25 min | Implement singleton design pattern in Java.         |
+| **Total content**                                                       |   1 hr 10 min |                                                                                                             |
 
 ## References
 
