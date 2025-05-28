@@ -24,8 +24,8 @@ singletonDesignPattern = new Template.Microlesson {
 }
 
 singletonPatternInAction = new Template.Microlesson {
-  friendlyName = "Singleton Design Pattern Code Along"
-  dirName = "singleton-design-pattern-code-along"
+  friendlyName = "Singleton Pattern in Action"
+  dirName = "singleton-pattern-in-action"
   type = "Content"
   videoUrl = ""
 }
